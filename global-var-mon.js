@@ -24,7 +24,8 @@
   var dumpAndCapture = function() {
     for (var k in window) {
       if (!vars[k]) {
-        console.log('Global variable is detected: ' + k);
+        console.log('Global variable is detected: ' + k +
+            ' (' + typeof window[k] + ')');
       }
     }
     capture();
