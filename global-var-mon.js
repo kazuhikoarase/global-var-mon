@@ -25,7 +25,7 @@
     for (var k in window) {
       if (!vars[k]) {
         console.log('Global variable is detected: ' + k +
-            ' (' + typeof k + ')');
+            ' (' + typeof vars[k] + ')');
       }
     }
     capture();
