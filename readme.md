@@ -1,7 +1,11 @@
-Global Variable Monitor
+# Global Variable Monitor
 
-Usage:
+##Usage
 
-Just include at head of script tags.
+Just load a script file at the head of script tags.
 
+If some global vars detected, they are logged at javascript console.
+
+```html
 <script src="global-var-mon.js"></script>
+```
